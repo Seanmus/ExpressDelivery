@@ -22,7 +22,7 @@ public class ActivateOnTrigger : MonoBehaviour
     {
         if (other.CompareTag(triggeringTag) == true)
         {
-            ArcadeKart kart = other.GetComponent<ArcadeKart>();
+            ArcadeKart kart = other.gameObject.transform.parent.GetComponent<ArcadeKart>();
             if (kart != null)
             {
                 TriggerTripped?.Invoke(kart);
