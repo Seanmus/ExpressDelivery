@@ -42,3 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: HUD
+    uniqueID: 296597229
+    locked: 0
+  - name: WorldSpaceUI
+    uniqueID: 906285957
+    locked: 0
+  - name: MenuUI
+    uniqueID: 494327749
+    locked: 0
