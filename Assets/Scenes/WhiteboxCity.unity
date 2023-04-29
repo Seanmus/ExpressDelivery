@@ -2194,7 +2194,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 492642882}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &341205551
 Rigidbody:
@@ -6312,6 +6312,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4810912518285214587, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.016
+      objectReference: {fileID: 0}
     - target: {fileID: 4810912518991602691, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
       propertyPath: m_Name
@@ -6376,6 +6381,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CollisionDetection
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810912519057417292, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810912519336000189, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537188362542740210, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19954de30401f73428254541a9ad156e, type: 3}
