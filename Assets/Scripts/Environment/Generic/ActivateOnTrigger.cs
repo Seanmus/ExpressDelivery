@@ -1,3 +1,4 @@
+using KartGame.KartSystems;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +11,7 @@ public class ActivateOnTrigger : MonoBehaviour
     [SerializeField]
     private string triggeringTag;
 
-    public UnityEvent TriggerTripped;
+    public UnityEvent<ArcadeKart> TriggerTripped;
 
     private void OnDestroy()
     {
@@ -21,7 +22,11 @@ public class ActivateOnTrigger : MonoBehaviour
     {
         if (other.CompareTag(triggeringTag) == true)
         {
-            TriggerTripped?.Invoke();
+            ArcadeKart kart = other.GetComponent<ArcadeKart>();
+            if (kart != null)
+            {
+                TriggerTripped?.Invoke(kart);
+            }
         }
     }
 }

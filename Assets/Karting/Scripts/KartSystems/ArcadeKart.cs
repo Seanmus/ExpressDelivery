@@ -20,13 +20,13 @@ namespace KartGame.KartSystems
         public struct Stats
         {
             [Header("Movement Settings")]
-            [Min(0.001f), Tooltip("Top speed attainable when moving forward.")]
+            [Tooltip("Top speed attainable when moving forward.")]
             public float TopSpeed;
 
             [Tooltip("How quickly the kart reaches top speed.")]
             public float Acceleration;
 
-            [Min(0.001f), Tooltip("Top speed attainable when moving backward.")]
+            [Tooltip("Top speed attainable when moving backward.")]
             public float ReverseSpeed;
 
             [Tooltip("How quickly the kart reaches top speed, when moving backward.")]
