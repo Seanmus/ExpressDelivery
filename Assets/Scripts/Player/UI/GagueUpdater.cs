@@ -11,14 +11,11 @@ public class GagueUpdater : MonoBehaviour
 
     private void Start()
     {
+        Inventory.Instance.OnInventoryChanged.AddListener(UpdateGague);
+
         slider = GetComponent<Slider>();
         slider.maxValue = Inventory.Instance.GetItem(gagueName);
         slider.value = Inventory.Instance.GetItem(gagueName);
-    }
-
-    private void OnEnable()
-    {
-        Inventory.Instance.OnInventoryChanged.AddListener(UpdateGague);
     }
 
     public void UpdateGague(string name, float amount)

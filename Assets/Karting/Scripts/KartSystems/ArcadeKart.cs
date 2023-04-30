@@ -243,6 +243,8 @@ namespace KartGame.KartSystems
 
             m_CurrentGrip = baseStats.Grip;
 
+
+
             if (DriftSparkVFX != null)
             {
                 AddSparkToWheel(RearLeftWheel, -DriftSparkHorizontalOffset, -DriftSparkRotation);
@@ -410,6 +412,14 @@ namespace KartGame.KartSystems
             {
                 if (Vector3.Dot(contact.normal, Vector3.up) > dot)
                     m_LastCollisionNormal = contact.normal;
+            }
+        }
+
+        public void LockVehicleOnFuelDepletion(string resourceName, float resourceAmount)
+        {
+            if (resourceName == "fuel" && resourceAmount <= 0)
+            {
+                SetCanMove(false);
             }
         }
 
