@@ -40,7 +40,7 @@ public class Timer : MonoBehaviour
         Instance = this;
         currTime = startTime;
         timeSinceLastCountdown = Time.time;
-
+        OnTimerCountdown.AddListener(GameManager.Instance.GameOverFromTimer);
     }
 
     private void Update()

@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
 
     public GameStatePairing[] states;
 
-    string m_SceneToLoad;
+    private string gameOverReason = "None";
 
     public static GameManager Instance
     {
@@ -69,7 +69,21 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(GetSceneFromState(state));
     }
 
-    public void ExitApplication()
+    public void GameOverFromSupply(string resourceName, float amount)
     {
+        if (resourceName == "supply" && amount <= 0f)
+        {
+            gameOverReason = "supply";
+            SwitchScenes(GameState.Lost);
+        }
+    }
+
+    public void GameOverFromTimer(int time)
+    {
+        if (time <= 0)
+        {
+            gameOverReason = "time";
+            SwitchScenes(GameState.Lost);
+        }
     }
 }

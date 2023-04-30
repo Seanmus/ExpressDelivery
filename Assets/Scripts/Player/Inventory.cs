@@ -42,6 +42,7 @@ public class Inventory : MonoBehaviour
         AddItem("fuel", fuelMax);
         AddItem("supply", supplyMax);
 
+       OnInventoryChanged.AddListener(GameManager.Instance.GameOverFromSupply);
     }
 
     private void OnDestroy()

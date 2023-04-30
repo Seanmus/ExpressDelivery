@@ -14,6 +14,4 @@ public class ButtonHooks : MonoBehaviour
         btn = GetComponent<Button>();
         btn.onClick.AddListener(delegate { GameManager.Instance.SwitchScenes(gameState); });
     }
-
-
 }
