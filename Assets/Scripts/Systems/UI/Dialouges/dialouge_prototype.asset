@@ -14,11 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialougeName: 
   dialougePairs:
-  - dialougeImage: {fileID: 21300000, guid: 0c92466b3dc44034f983f3983cf0ee40, type: 3}
-    dialougeContent: Test1!~
-  - dialougeImage: {fileID: 21300000, guid: ed918747b629f41a2ac644a5596f15a9, type: 3}
-    dialougeContent: Test2!!!!
-  - dialougeImage: {fileID: 0}
-    dialougeContent: Test3!!!
-  - dialougeImage: {fileID: 21300000, guid: bbe8d33a81a0549ce8ab1cee4aa7db2a, type: 3}
+  - dialougeImage: {fileID: 21300000, guid: fc2c48392c25eab47bb836455209ad71, type: 3}
+    dialougeContent: ...
+  - dialougeImage: {fileID: 21300000, guid: e8a2fb9093838ce43acb64ded2902c34, type: 3}
+    dialougeContent: how did i get here...
+  - dialougeImage: {fileID: 21300000, guid: dc3f228be99d7b54eb434a207a272629, type: 3}
+    dialougeContent: I should try and get away, before my fuel and supplies run out
+  - dialougeImage: {fileID: 21300000, guid: dc3f228be99d7b54eb434a207a272629, type: 3}
     dialougeContent: 
+  - dialougeImage: {fileID: 21300000, guid: 148e7c5f5acbd954e82dc1b2f2287da3, type: 3}
+    dialougeContent: Oh shit, I zoned out.. Oh no...
+  - dialougeImage: {fileID: 21300000, guid: 59422a55535eccd44af0381d8a816c9f, type: 3}
+    dialougeContent: It'll be fine, i think
+  - dialougeImage: {fileID: 21300000, guid: c5adb0c5209ee8245bfa9aaeac953222, type: 3}
+    dialougeContent: I can just go down the street

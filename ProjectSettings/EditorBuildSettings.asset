@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gameplay/Lose/LoseScreen.unity
     guid: 653c10bef1354d446ace2ae8ab1d3604
+  - enabled: 1
+    path: Assets/Scenes/Whitebox.unity
+    guid: b9eb70273309c0748b2732b97bc9305a
   m_configObjects: {}
