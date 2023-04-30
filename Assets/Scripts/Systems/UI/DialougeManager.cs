@@ -1,3 +1,4 @@
+using KartGame.KartSystems;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -15,6 +16,9 @@ public class DialougeManager : MonoBehaviour
 
     [SerializeField]
     private Sprite defaultImage;
+
+    [SerializeField]
+    private ArcadeKart player;
 
     private bool dialougeEnabled = false;
     private bool isLoadedClusterFresh = false;
@@ -57,6 +61,9 @@ public class DialougeManager : MonoBehaviour
         }
         dialougeContainer.SetActive(true);
         dialougeEnabled = true;
+
+        player.SetCanMove(false);
+        player.GetComponent<Rigidbody>().velocity = new Vector3();
     }
 
     public void CloseDialougeWindow()
@@ -64,6 +71,8 @@ public class DialougeManager : MonoBehaviour
         dialougeContainer.SetActive(false);
         dialougeEnabled = false;
         isLoadedClusterFresh = false;
+
+        player.SetCanMove(true);
     }
 
     /// <summary>
