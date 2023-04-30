@@ -1,10 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Inventory : MonoBehaviour
 {
     private Dictionary<string, float> playerInventory = new Dictionary<string, float>();
+
+    public UnityEvent<string, float> OnInventoryChanged = new UnityEvent<string, float>();
+
+    [SerializeField]
+    private float fuelMax;
+
+    [SerializeField]
+    private float supplyMax;
 
     public static Inventory Instance
     {
@@ -30,6 +39,14 @@ public class Inventory : MonoBehaviour
         }
 
         Instance = this;
+        AddItem("fuel", fuelMax);
+        AddItem("supply", supplyMax);
+
+    }
+
+    private void OnDestroy()
+    {
+        OnInventoryChanged.RemoveAllListeners();
     }
 
     public void RemoveItem(string itemName,float amount)
@@ -40,12 +57,23 @@ public class Inventory : MonoBehaviour
             {
                 playerInventory[itemName] -= amount;
             }
+            else
+            {
+                playerInventory[itemName] = 0;
+            }
+
+            OnInventoryChanged?.Invoke(itemName, playerInventory[itemName]);
         }
     }
 
     public bool DoesItemExist(string itemName)
     {
         return playerInventory.ContainsKey(itemName);
+    }
+
+    public float GetItem(string itemName)
+    {
+        return playerInventory[itemName];
     }
 
     public void AddItem(string itemName, float amount)
@@ -57,5 +85,6 @@ public class Inventory : MonoBehaviour
         }
 
         playerInventory.Add(itemName, amount);
+        OnInventoryChanged?.Invoke(itemName, playerInventory[itemName]);
     }
 }
