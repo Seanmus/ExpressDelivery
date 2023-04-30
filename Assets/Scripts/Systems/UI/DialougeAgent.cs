@@ -11,6 +11,6 @@ public class DialougeAgent : MonoBehaviour
     {
         DialougeManager.Instance.OpenDialougeWindow();
         DialougeManager.Instance.LoadDialougeCluster(cluster);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }
