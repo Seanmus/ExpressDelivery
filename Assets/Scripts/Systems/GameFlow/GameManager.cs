@@ -69,6 +69,15 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(GetSceneFromState(state));
     }
 
+    public void GameOverFromWin(int amountDelivered, int maxPackages)
+    {
+        if (amountDelivered >= maxPackages)
+        {
+            gameOverReason = "win";
+            SwitchScenes(GameState.Won);
+        }
+    }
+
     public void GameOverFromSupply(string resourceName, float amount)
     {
         if (resourceName == "supply" && amount <= 0f)
