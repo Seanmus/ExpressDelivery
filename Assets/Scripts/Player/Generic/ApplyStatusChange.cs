@@ -11,6 +11,8 @@ public class ApplyStatusChange : MonoBehaviour
 
     public UnityEvent OnStatusApplied;
 
+
+
     private void OnDestroy()
     {
         OnStatusApplied.RemoveAllListeners();    

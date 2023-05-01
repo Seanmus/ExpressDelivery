@@ -42,7 +42,6 @@ namespace KartGame.KartSystems
             [Tooltip("How quickly the kart will reach a full stop when no inputs are made.")]
             public float CoastingDrag;
 
-            [Range(0.0f, 1.0f)]
             [Tooltip("The amount of side-to-side friction.")]
             public float Grip;
 
@@ -340,7 +339,14 @@ namespace KartGame.KartSystems
         void TickPowerups()
         {
             // remove all elapsed powerups
-            m_ActivePowerupList.RemoveAll((p) => { return p.ElapsedTime > p.MaxTime; });
+            m_ActivePowerupList.RemoveAll((p) => {
+                if(p.ElapsedTime > p.MaxTime)
+                {
+                    p.ElapsedTime = 0;
+                    return true;
+                }
+                return p.ElapsedTime > p.MaxTime;
+            });
 
             // zero out powerups before we add them all up
             var powerups = new Stats();
