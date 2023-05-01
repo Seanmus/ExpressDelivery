@@ -29,13 +29,35 @@ namespace KartGame.KartSystems
 
         ArcadeKart arcadeKart;
 
+        private bool shouldDisableSound;
+
+        public void ToggleSounds(bool state)
+        {
+            shouldDisableSound = state;
+            StartSound.volume = 0f;
+            IdleSound.volume = 0f;
+            RunningSound.volume = 0f;
+            ReverseSound.volume = 0f;
+        }
+
         void Awake()
         {
             arcadeKart = GetComponentInParent<ArcadeKart>();
         }
 
+        private void OnEnable()
+        {
+            
+        }
+
         void Update()
         {
+
+            if (shouldDisableSound)
+            {
+                return;
+            }
+
             float kartSpeed = 0.0f;
             if (arcadeKart != null)
             {
