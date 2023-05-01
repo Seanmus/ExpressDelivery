@@ -39301,7 +39301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   states:
   - sceneState: 0
-    sceneName: Whitebox
+    sceneName: WhiteboxCity
   - sceneState: 1
     sceneName: WinScreen
   - sceneState: 2
