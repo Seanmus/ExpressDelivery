@@ -62,7 +62,7 @@ public class DialougeManager : MonoBehaviour
         dialougeContainer.SetActive(true);
         dialougeEnabled = true;
 
-        player.SetCanMove(false);
+        Time.timeScale = 0;
         player.GetComponent<Rigidbody>().velocity = new Vector3();
     }
 
@@ -72,7 +72,7 @@ public class DialougeManager : MonoBehaviour
         dialougeEnabled = false;
         isLoadedClusterFresh = false;
 
-        player.SetCanMove(true);
+        Time.timeScale = 1;
     }
 
     /// <summary>

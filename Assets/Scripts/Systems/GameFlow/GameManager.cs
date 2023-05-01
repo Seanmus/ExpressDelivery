@@ -67,6 +67,7 @@ public class GameManager : MonoBehaviour
             Application.Quit();
         }
         SceneManager.LoadScene(GetSceneFromState(state));
+        Time.timeScale = 1;
     }
 
     public void GameOverFromWin(int amountDelivered, int maxPackages)
