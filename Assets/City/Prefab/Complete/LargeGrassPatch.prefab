@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &846893567447859083
 Transform:
@@ -47,6 +47,10 @@ PrefabInstance:
     - target: {fileID: 1274281921303186, guid: 17f506cbdbd7fb442b76e028735fe534, type: 3}
       propertyPath: m_Name
       value: GrassLand (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274281921303186, guid: 17f506cbdbd7fb442b76e028735fe534, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4861269798950378, guid: 17f506cbdbd7fb442b76e028735fe534, type: 3}
       propertyPath: m_RootOrder
@@ -123,6 +127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrassLand (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274281921303186, guid: 17f506cbdbd7fb442b76e028735fe534, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4861269798950378, guid: 17f506cbdbd7fb442b76e028735fe534, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -197,6 +205,10 @@ PrefabInstance:
     - target: {fileID: 1274281921303186, guid: 17f506cbdbd7fb442b76e028735fe534, type: 3}
       propertyPath: m_Name
       value: GrassLand (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274281921303186, guid: 17f506cbdbd7fb442b76e028735fe534, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4861269798950378, guid: 17f506cbdbd7fb442b76e028735fe534, type: 3}
       propertyPath: m_RootOrder
@@ -273,6 +285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrassLand (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274281921303186, guid: 17f506cbdbd7fb442b76e028735fe534, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4861269798950378, guid: 17f506cbdbd7fb442b76e028735fe534, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -348,6 +364,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrassLand (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274281921303186, guid: 17f506cbdbd7fb442b76e028735fe534, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4861269798950378, guid: 17f506cbdbd7fb442b76e028735fe534, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -422,6 +442,10 @@ PrefabInstance:
     - target: {fileID: 1274281921303186, guid: 17f506cbdbd7fb442b76e028735fe534, type: 3}
       propertyPath: m_Name
       value: GrassLand (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274281921303186, guid: 17f506cbdbd7fb442b76e028735fe534, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4861269798950378, guid: 17f506cbdbd7fb442b76e028735fe534, type: 3}
       propertyPath: m_RootOrder

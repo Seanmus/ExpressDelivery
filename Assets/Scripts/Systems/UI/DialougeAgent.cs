@@ -9,8 +9,9 @@ public class DialougeAgent : MonoBehaviour
     private DialougeCluster cluster;
     public void TriggerDialouge()
     {
-        DialougeManager.Instance.OpenDialougeWindow();
         DialougeManager.Instance.LoadDialougeCluster(cluster);
+        DialougeManager.Instance.OpenDialougeWindow();
+        DialougeManager.Instance.AdvanceLoadedCluster();
         gameObject.SetActive(false);
     }
 }

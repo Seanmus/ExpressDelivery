@@ -63,7 +63,6 @@ public class DialougeManager : MonoBehaviour
         dialougeEnabled = true;
 
         Time.timeScale = 0;
-        player.GetComponent<Rigidbody>().velocity = new Vector3();
     }
 
     public void CloseDialougeWindow()
@@ -71,7 +70,6 @@ public class DialougeManager : MonoBehaviour
         dialougeContainer.SetActive(false);
         dialougeEnabled = false;
         isLoadedClusterFresh = false;
-
         Time.timeScale = 1;
     }
 
