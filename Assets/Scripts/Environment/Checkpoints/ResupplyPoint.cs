@@ -13,6 +13,5 @@ public class ResupplyPoint : MonoBehaviour
     public void Resupply()
     {
         Inventory.Instance.AddItem(resourceName, amount);
-        Destroy(gameObject);
     }
 }

@@ -18,3 +18,5 @@ MonoBehaviour:
     dialougeContent: HAAAAAAAAAAAAAAAAAAAA
   - dialougeImage: {fileID: 21300000, guid: b69c0cfb575452c4696593846bc80698, type: 3}
     dialougeContent: AHHHHHHHHHHHHHHHHHH
+  - dialougeImage: {fileID: 21300000, guid: 59422a55535eccd44af0381d8a816c9f, type: 3}
+    dialougeContent: Oil Spill!! Watch out!
