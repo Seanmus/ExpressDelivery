@@ -14,13 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialougeName: 
   dialougePairs:
-  - dialougeImage: {fileID: 21300000, guid: 65fd26883529a5f4db44ea16cf925e82, type: 3}
+  - dialougeImage: {fileID: 21300000, guid: d84309f9183c6c44a97cc83038737822, type: 3}
     dialougeContent: '"Successful Delivery, Time Increased!"'
   - dialougeImage: {fileID: 21300000, guid: dc3f228be99d7b54eb434a207a272629, type: 3}
     dialougeContent: So, Now that there's no more Congo Corp, who pays me?
-  - dialougeImage: {fileID: 21300000, guid: 65fd26883529a5f4db44ea16cf925e82, type: 3}
+  - dialougeImage: {fileID: 21300000, guid: 5c7080f3c19da594895de7a63c52d677, type: 3}
     dialougeContent: 
-  - dialougeImage: {fileID: 21300000, guid: 65fd26883529a5f4db44ea16cf925e82, type: 3}
-    dialougeContent: '"The employee is urged to refrain from asking useless questions"'
+  - dialougeImage: {fileID: 21300000, guid: 73d22a3f15890d0448ae2e2c77a0d6ce, type: 3}
+    dialougeContent: '"The employee is urged to refrain from asking unproductive
+      questions"'
   - dialougeImage: {fileID: 21300000, guid: 38445eea8bd09a04ead2b38d109f64b1, type: 3}
-    dialougeContent: 
+    dialougeContent: '>:('

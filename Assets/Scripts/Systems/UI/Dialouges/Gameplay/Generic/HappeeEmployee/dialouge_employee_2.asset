@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialougeName: 
   dialougePairs:
-  - dialougeImage: {fileID: 21300000, guid: 65fd26883529a5f4db44ea16cf925e82, type: 3}
+  - dialougeImage: {fileID: 21300000, guid: d84309f9183c6c44a97cc83038737822, type: 3}
     dialougeContent: '"Delivery Complete. Time Increased"'

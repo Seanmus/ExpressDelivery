@@ -16,12 +16,16 @@ MonoBehaviour:
   dialougePairs:
   - dialougeImage: {fileID: 21300000, guid: 59422a55535eccd44af0381d8a816c9f, type: 3}
     dialougeContent: HOLY HELL DID YOU SEE THAT? I JUST SCALED A BUILDING
+  - dialougeImage: {fileID: 21300000, guid: b69c0cfb575452c4696593846bc80698, type: 3}
+    dialougeContent: AHHHHHHHHHHHHHHHHHH
   - dialougeImage: {fileID: 21300000, guid: c5adb0c5209ee8245bfa9aaeac953222, type: 3}
     dialougeContent: Best Delivery Driver ever.
-  - dialougeImage: {fileID: 21300000, guid: 65fd26883529a5f4db44ea16cf925e82, type: 3}
+  - dialougeImage: {fileID: 21300000, guid: c094942d929a1c54682eefba2ab92a48, type: 3}
+    dialougeContent: ...
+  - dialougeImage: {fileID: 21300000, guid: c094942d929a1c54682eefba2ab92a48, type: 3}
     dialougeContent: '"Employee has performed above and beyond what is considered
       normal delivery"'
-  - dialougeImage: {fileID: 21300000, guid: 65fd26883529a5f4db44ea16cf925e82, type: 3}
+  - dialougeImage: {fileID: 21300000, guid: 5c7080f3c19da594895de7a63c52d677, type: 3}
     dialougeContent: '"Additional Time has been awarded"'
   - dialougeImage: {fileID: 21300000, guid: c5adb0c5209ee8245bfa9aaeac953222, type: 3}
     dialougeContent: Good enough.

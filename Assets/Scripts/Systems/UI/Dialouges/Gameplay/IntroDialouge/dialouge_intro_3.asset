@@ -21,14 +21,14 @@ MonoBehaviour:
   - dialougeImage: {fileID: 21300000, guid: 59422a55535eccd44af0381d8a816c9f, type: 3}
     dialougeContent: There really is no one left! Woo hoo! I can go home now and
       take a half day!
-  - dialougeImage: {fileID: 21300000, guid: 65fd26883529a5f4db44ea16cf925e82, type: 3}
+  - dialougeImage: {fileID: 21300000, guid: d84309f9183c6c44a97cc83038737822, type: 3}
     dialougeContent: '"The Handee Employee Bracelet would like to remind this employee"'
-  - dialougeImage: {fileID: 21300000, guid: 65fd26883529a5f4db44ea16cf925e82, type: 3}
+  - dialougeImage: {fileID: 21300000, guid: d84309f9183c6c44a97cc83038737822, type: 3}
     dialougeContent: '"That even in the event of an apocalypse the employee is lawfully
       bound to deliver packages"'
-  - dialougeImage: {fileID: 21300000, guid: 65fd26883529a5f4db44ea16cf925e82, type: 3}
+  - dialougeImage: {fileID: 21300000, guid: 73d22a3f15890d0448ae2e2c77a0d6ce, type: 3}
     dialougeContent: '"Refusal to deliver will result in employee''s explosive termination"'
   - dialougeImage: {fileID: 21300000, guid: fc2c48392c25eab47bb836455209ad71, type: 3}
     dialougeContent: ...
-  - dialougeImage: {fileID: 21300000, guid: 65fd26883529a5f4db44ea16cf925e82, type: 3}
+  - dialougeImage: {fileID: 21300000, guid: 5c7080f3c19da594895de7a63c52d677, type: 3}
     dialougeContent: ...
