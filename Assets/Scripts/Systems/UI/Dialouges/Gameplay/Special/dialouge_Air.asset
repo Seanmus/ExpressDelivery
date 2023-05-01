@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e5a63cf581bbc4ab53f330859fcb38, type: 3}
+  m_Name: dialouge_Air
+  m_EditorClassIdentifier: 
+  dialougeName: Air
+  dialougePairs:
+  - dialougeImage: {fileID: 21300000, guid: e8a2fb9093838ce43acb64ded2902c34, type: 3}
+    dialougeContent: AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!!!!
+  - dialougeImage: {fileID: 21300000, guid: c5adb0c5209ee8245bfa9aaeac953222, type: 3}
+    dialougeContent: I guess thats what they call up scaled delivery *removes sunglasses*
+  - dialougeImage: {fileID: 21300000, guid: dc3f228be99d7b54eb434a207a272629, type: 3}
+    dialougeContent: 'How did I get up here? '
+  - dialougeImage: {fileID: 21300000, guid: c094942d929a1c54682eefba2ab92a48, type: 3}
+    dialougeContent: You're lucky this vehicle has emergency nitro or else you would
+      have died....
+  - dialougeImage: {fileID: 21300000, guid: e8a2fb9093838ce43acb64ded2902c34, type: 3}
+    dialougeContent: Shouldn't I be falling by now?
+  - dialougeImage: {fileID: 21300000, guid: b9e617aeceb4f2b448f84743b882260e, type: 3}
+    dialougeContent: You should be ...

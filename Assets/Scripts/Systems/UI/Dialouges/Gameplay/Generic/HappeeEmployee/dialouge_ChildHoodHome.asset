@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e5a63cf581bbc4ab53f330859fcb38, type: 3}
+  m_Name: dialouge_ChildHoodHome
+  m_EditorClassIdentifier: 
+  dialougeName: 
+  dialougePairs:
+  - dialougeImage: {fileID: 0}
+    dialougeContent: Awww its my old childhood home, I wonder who lives here?
+  - dialougeImage: {fileID: 0}
+    dialougeContent: Lets see they ordered rubber gloves, a shovel, 2 bottles of
+      bleach, some rope and a singular garbage bag.
+  - dialougeImage: {fileID: 0}
+    dialougeContent: They seem like pretty clean people glad they are taking such
+      good care of Mothers old home!
+  - dialougeImage: {fileID: 0}
+    dialougeContent: GIVE ME THAT!
+  - dialougeImage: {fileID: 0}
+    dialougeContent: GET LOST!
