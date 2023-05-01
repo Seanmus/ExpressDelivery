@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 3552fcd0253c624429abde9273fc64ad,
+    type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 52dcb5f3510d60741a9073e0bb666307,
     type: 2}
 --- !u!196 &4
@@ -137,6 +138,7 @@ GameObject:
   - component: {fileID: 55738590}
   - component: {fileID: 55738589}
   - component: {fileID: 55738592}
+  - component: {fileID: 55738593}
   m_Layer: 5
   m_Name: StartBtn
   m_TagString: Untagged
@@ -260,6 +262,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameState: 0
+--- !u!95 &55738593
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55738587}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 327b1bea4d0236b47a1424bcd4d63c30, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &99207611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5626,6 +5649,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330955064533333164, guid: 73bb7688db70c3343a677403d96a179d,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330955064533333164, guid: 73bb7688db70c3343a677403d96a179d,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7341612287960384455, guid: 73bb7688db70c3343a677403d96a179d,
         type: 3}
@@ -36015,6 +36048,7 @@ GameObject:
   - component: {fileID: 134745464}
   - component: {fileID: 134745466}
   - component: {fileID: 134745465}
+  - component: {fileID: 134745467}
   m_Layer: 5
   m_Name: TitleBG
   m_TagString: Untagged
@@ -36081,6 +36115,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 134745463}
   m_CullTransparentMesh: 1
+--- !u!95 &134745467
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134745463}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b0d9eaae14cae3e40861324d2df94585, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &148495589
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37105,7 +37160,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Express Delivery
+  m_text: 'Apocalypse Express
 
 '
   m_isRightToLeft: 0
@@ -37135,8 +37190,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 58.5
-  m_fontSizeBase: 58.5
+  m_fontSize: 42.56
+  m_fontSizeBase: 42.56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -37263,6 +37318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1435333058}
   - component: {fileID: 1435333059}
+  - component: {fileID: 1435333060}
   m_Layer: 5
   m_Name: MainContainer
   m_TagString: Untagged
@@ -37319,6 +37375,27 @@ MonoBehaviour:
   m_ChildScaleWidth: 1
   m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
+--- !u!95 &1435333060
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435333057}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f1c96447def599e448067fa0ec902ea6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1678393382
 GameObject:
   m_ObjectHideFlags: 0
@@ -37335,7 +37412,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1678393383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37556,6 +37633,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158194802272860159, guid: f99c50761eeab2b43b903f2e798a8692,
+        type: 3}
+      propertyPath: states.Array.data[0].sceneName
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99c50761eeab2b43b903f2e798a8692, type: 3}

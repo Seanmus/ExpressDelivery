@@ -9,7 +9,7 @@ public class UIInputManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(advanceDialougeKey))
+        if (Input.GetKeyDown(advanceDialougeKey) || Input.GetMouseButtonDown(0))
         {
             DialougeManager.Instance.AdvanceLoadedCluster();
         }

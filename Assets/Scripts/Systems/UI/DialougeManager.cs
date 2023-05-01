@@ -17,9 +17,6 @@ public class DialougeManager : MonoBehaviour
     [SerializeField]
     private Sprite defaultImage;
 
-    [SerializeField]
-    private ArcadeKart player;
-
     private bool dialougeEnabled = false;
     private bool isLoadedClusterFresh = false;
 

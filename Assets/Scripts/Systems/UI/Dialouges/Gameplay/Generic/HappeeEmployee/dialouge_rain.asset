@@ -15,7 +15,7 @@ MonoBehaviour:
   dialougeName: 
   dialougePairs:
   - dialougeImage: {fileID: 21300000, guid: 59422a55535eccd44af0381d8a816c9f, type: 3}
-    dialougeContent: This looks like a really good spot to get out of the rain. No
-      wonder they wanted sun screen!
+    dialougeContent: Wow! They really wanted a lot of sunscreen. This must've caused
+      a fortune!!
   - dialougeImage: {fileID: 21300000, guid: c094942d929a1c54682eefba2ab92a48, type: 3}
-    dialougeContent: The building collapsed don't you see that?
+    dialougeContent: They have bigger things to worry about other than the sun.
