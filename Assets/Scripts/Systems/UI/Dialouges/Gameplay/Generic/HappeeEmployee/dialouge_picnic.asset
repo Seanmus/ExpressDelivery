@@ -14,7 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialougeName: 
   dialougePairs:
-  - dialougeImage: {fileID: 21300000, guid: 59422a55535eccd44af0381d8a816c9f, type: 3}
-    dialougeContent: Awwww blankets this looks like a really nice place for a picnic!
-  - dialougeImage: {fileID: 21300000, guid: 5c7080f3c19da594895de7a63c52d677, type: 3}
-    dialougeContent: These people are most likely dead...
+  - dialougeImage: {fileID: 21300000, guid: fc2c48392c25eab47bb836455209ad71, type: 3}
+    dialougeContent: Man, I used to take picnics in this area... Now there's nothing
+      but rubble on it
+  - dialougeImage: {fileID: 21300000, guid: 73d22a3f15890d0448ae2e2c77a0d6ce, type: 3}
+    dialougeContent: Loitering during company time is considered a breach of your
+      contract and can lead to penalization
+  - dialougeImage: {fileID: 21300000, guid: 38445eea8bd09a04ead2b38d109f64b1, type: 3}
+    dialougeContent: If I wasn't stuck with you i'd have tossed you out the window
+      and taken a picnic somewhere

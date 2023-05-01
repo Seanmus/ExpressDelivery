@@ -16,14 +16,14 @@ MonoBehaviour:
   dialougePairs:
   - dialougeImage: {fileID: 21300000, guid: e8a2fb9093838ce43acb64ded2902c34, type: 3}
     dialougeContent: AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!!!!
-  - dialougeImage: {fileID: 21300000, guid: c5adb0c5209ee8245bfa9aaeac953222, type: 3}
-    dialougeContent: I guess thats what they call up scaled delivery *removes sunglasses*
   - dialougeImage: {fileID: 21300000, guid: dc3f228be99d7b54eb434a207a272629, type: 3}
-    dialougeContent: 'How did I get up here? '
-  - dialougeImage: {fileID: 21300000, guid: c094942d929a1c54682eefba2ab92a48, type: 3}
-    dialougeContent: You're lucky this vehicle has emergency nitro or else you would
-      have died....
-  - dialougeImage: {fileID: 21300000, guid: e8a2fb9093838ce43acb64ded2902c34, type: 3}
-    dialougeContent: Shouldn't I be falling by now?
-  - dialougeImage: {fileID: 21300000, guid: b9e617aeceb4f2b448f84743b882260e, type: 3}
-    dialougeContent: You should be ...
+    dialougeContent: AHHHHHHhhh- Oh
+  - dialougeImage: {fileID: 21300000, guid: dc3f228be99d7b54eb434a207a272629, type: 3}
+    dialougeContent: Are we flying?
+  - dialougeImage: {fileID: 21300000, guid: 73d22a3f15890d0448ae2e2c77a0d6ce, type: 3}
+    dialougeContent: More like not falling
+  - dialougeImage: {fileID: 21300000, guid: d84309f9183c6c44a97cc83038737822, type: 3}
+    dialougeContent: These vehicles have built in boosters that kick in when an employee
+      gains air.
+  - dialougeImage: {fileID: 21300000, guid: 5c7080f3c19da594895de7a63c52d677, type: 3}
+    dialougeContent: It can only do this once though

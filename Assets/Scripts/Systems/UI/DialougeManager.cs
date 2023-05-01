@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class DialougeManager : MonoBehaviour
@@ -24,6 +25,8 @@ public class DialougeManager : MonoBehaviour
     private int maxDialouge = 0;
 
     private DialougeCluster loadedCluster;
+
+    public UnityEvent OnDialougeFinished = new UnityEvent();
 
     public static DialougeManager Instance
     {
@@ -89,6 +92,7 @@ public class DialougeManager : MonoBehaviour
             if (currDialougePage == maxDialouge)
             {
                 //Dialouge Finished
+                OnDialougeFinished?.Invoke();
                 CancelLoadedCluster();
                 CloseDialougeWindow();
                 return;

@@ -13,4 +13,12 @@ MonoBehaviour:
   m_Name: dialouge_Ending_Lost_Timer
   m_EditorClassIdentifier: 
   dialougeName: 
-  dialougePairs: []
+  dialougePairs:
+  - dialougeImage: {fileID: 21300000, guid: 5c7080f3c19da594895de7a63c52d677, type: 3}
+    dialougeContent: 3...
+  - dialougeImage: {fileID: 21300000, guid: 5c7080f3c19da594895de7a63c52d677, type: 3}
+    dialougeContent: 2...
+  - dialougeImage: {fileID: 21300000, guid: 5c7080f3c19da594895de7a63c52d677, type: 3}
+    dialougeContent: 1...
+  - dialougeImage: {fileID: 21300000, guid: d84309f9183c6c44a97cc83038737822, type: 3}
+    dialougeContent: Executing delayed package protocol!

@@ -14,15 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialougeName: 
   dialougePairs:
-  - dialougeImage: {fileID: 0}
-    dialougeContent: Awww its my old childhood home, I wonder who lives here?
-  - dialougeImage: {fileID: 0}
+  - dialougeImage: {fileID: 21300000, guid: dc3f228be99d7b54eb434a207a272629, type: 3}
+    dialougeContent: Dang, It's my old neighborhood. I used to play around this area...
+      Hmm looks like someone moved in
+  - dialougeImage: {fileID: 21300000, guid: e8a2fb9093838ce43acb64ded2902c34, type: 3}
     dialougeContent: Lets see they ordered rubber gloves, a shovel, 2 bottles of
       bleach, some rope and a singular garbage bag.
-  - dialougeImage: {fileID: 0}
+  - dialougeImage: {fileID: 21300000, guid: c5adb0c5209ee8245bfa9aaeac953222, type: 3}
     dialougeContent: They seem like pretty clean people glad they are taking such
-      good care of Mothers old home!
-  - dialougeImage: {fileID: 0}
+      good care of this old dump.
+  - dialougeImage: {fileID: 21300000, guid: c3bbd69b6cd416e4a9977f07d1c5d3ae, type: 3}
     dialougeContent: GIVE ME THAT!
-  - dialougeImage: {fileID: 0}
+  - dialougeImage: {fileID: 21300000, guid: 3a06892f1bcfb3d4c95010dc8c18731c, type: 3}
     dialougeContent: GET LOST!
