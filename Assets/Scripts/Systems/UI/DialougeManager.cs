@@ -26,6 +26,9 @@ public class DialougeManager : MonoBehaviour
 
     private DialougeCluster loadedCluster;
 
+    [SerializeField]
+    private ArcadeKart kart;
+
     public UnityEvent OnDialougeFinished = new UnityEvent();
 
     public static DialougeManager Instance
@@ -62,7 +65,12 @@ public class DialougeManager : MonoBehaviour
         dialougeContainer.SetActive(true);
         dialougeEnabled = true;
 
+        if (kart != null)
+        {
+            kart.GetComponentInChildren<ArcadeEngineAudio>().ToggleSounds(true);
+        }
         Time.timeScale = 0;
+
     }
 
     public void CloseDialougeWindow()
@@ -70,7 +78,12 @@ public class DialougeManager : MonoBehaviour
         dialougeContainer.SetActive(false);
         dialougeEnabled = false;
         isLoadedClusterFresh = false;
+        if (kart != null)
+        {
+            kart.GetComponentInChildren<ArcadeEngineAudio>().ToggleSounds(false);
+        }
         Time.timeScale = 1;
+
     }
 
     /// <summary>

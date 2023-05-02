@@ -45,10 +45,6 @@ namespace KartGame.KartSystems
             arcadeKart = GetComponentInParent<ArcadeKart>();
         }
 
-        private void OnEnable()
-        {
-            
-        }
 
         void Update()
         {

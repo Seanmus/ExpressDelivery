@@ -2651,6 +2651,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2940920346964800008, guid: 710e5615e8c2c804d8e86d5e7fa4d846,
         type: 3}
+      propertyPath: kart
+      value: 
+      objectReference: {fileID: 1196536030}
+    - target: {fileID: 2940920346964800008, guid: 710e5615e8c2c804d8e86d5e7fa4d846,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1196536030}
